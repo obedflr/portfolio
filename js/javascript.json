@@ -1,0 +1,28 @@
+{
+    "es": {
+        "title": "Hugo Suárez",
+        "description": "Desarrollador web",
+        "navbar1": "Inicio",
+        "navbar2": "Proyectos",
+        "cambiarTraduccion": "Change language to english",
+        "datPersonales": "Datos personales",
+        "txtDatPersonales": "Información de contacto",
+        "presentacion": "Presentación",
+        "txtPresentacion": "Soy Hugo Suárez, estudiante de Desarrollo de Aplicaciones Web. Me apasiona crear soluciones innovadoras combinando lógica, creatividad y tecnología. Busco constantemente nuevos retos para mejorar mis habilidades y aportar valor a cada proyecto en el que participo.",
+        "educacion": "Educación",
+        "txtEducacion": "Técnico Superior de primer año en Desarrollo de Aplicaciones Web"
+    },
+    "en": {
+        "title": "Hugo Suárez",
+        "description": "Web developer",
+        "navbar1": "Home",
+        "navbar2": "Projects",
+        "cambiarTraduccion": "Cambiar idioma a español",
+        "datPersonales": "Personal details",
+        "txtDatPersonales": "Example text",
+        "presentacion": "Personal statement",
+        "txtPresentacion": "I am Hugo Suárez, a Web Application Development student. I am passionate about creating innovative solutions by combining logic, creativity, and technology. I am constantly seeking new challenges to improve my skills and add value to every project I participate in.",
+        "educacion": "Education",
+        "txtEducacion": "1st year Higher Technician in Web Application Development"
+    }
+}

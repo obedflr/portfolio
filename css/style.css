@@ -1,0 +1,65 @@
+ .btn-effect-1 { 
+    border: 2px solid #007BFF; 
+    background: transparent; 
+    color: #007BFF; 
+    box-shadow: 0 0 5px #007BFF;
+}
+
+.btn-effect-1:hover {
+    background: #007BFF;
+    color: #ffffff;
+    box-shadow: 0 0 20px #007BFF, 0 0 40px #007BFF;
+}
+.btn-container {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #007BFF;
+    border-radius: 20px;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #ccc;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    color: #007BFF;
+}
+
+#barra_navegacion ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#barra_navegacion li {
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+
+}
