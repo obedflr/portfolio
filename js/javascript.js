@@ -1,4 +1,4 @@
-const cambiarTraduccion = document.getElementById("cambiarTraduccion");
+const cambiarTraduccion = document.getElementById("btnIdioma");
  
  
 let translations = {};

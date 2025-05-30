@@ -11,7 +11,9 @@
     box-shadow: 0 0 20px #007BFF, 0 0 40px #007BFF;
 }
 .btn-container {
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 1px;
     right: 3px;
 }
@@ -51,8 +53,8 @@ h2 {
 }
 
 #barra_navegacion li {
-    padding: 20px;
-    margin: 20px;
+    padding: 25px;
+    margin: 25px;
     margin-bottom: 5px;
 }
 
@@ -61,5 +63,93 @@ a {
 }
 
 a:hover {
+    color: #007BFF;
+}
 
+button {
+    padding: 7px 10px;
+    margin: 1px;
+}
+
+#contacto {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.contacto-iconos {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contacto-iconos a img {
+  transition: transform 0.3s ease;
+}
+
+.contacto-iconos a img:hover {
+  transform: scale(1.2);
+}
+
+#btnIdioma {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+/* cajas de proyectos */
+
+#proyectos {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #ccc;
+  margin-bottom: 20px;
+}
+
+.proyectos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.proyecto-card {
+  background-color: #f0f8ff;
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.proyecto-card h3 {
+  margin-top: 0;
+  color: #007BFF;
+}
+
+.proyecto-card p {
+  flex-grow: 1;
+  margin: 10px 0;
+  color: #333;
+}
+
+.btn-proyecto {
+  text-align: center;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 0;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-proyecto:hover {
+  background-color: #0056b3;
 }

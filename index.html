@@ -1,35 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Don Obed López</title>
     <link rel="stylesheet" href="css/style.css">
-    <div class="container">
-    <div class="btn-container"><button class="btn-effect-1">CAMBIAR IDIOMA</button></div>
-    <button id="btnIdioma" aria-label="Cambiar idioma">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" alt="Español" width="24" height="16">
-      /
-      <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="English" width="24" height="16">
-    </button>
 </head>
+
 <body>
     <header>
-        <h1>Currículum Vitae</h1>
-        <p>Alumno: Obed Francisco López Rodríguez</p>
-        <nav id="barra_navegacion">
-            <ul>
-                <li><a href="index.html">Inicio </a></li>
-                <li><button><a href="html/proyecto1.html"> Proyecto Memorion </a></button></li>
-                <li><button><a href="html/proyecto2.html"> Proyecto calculadora de IP </a></button></li>
-                <li><button><a href="html/proyecto3.html"> Proyecto de mapas </a></button></li>
-                <li><button><a href="html/proyecto4.html"> Proyecto de base de datos </a></button></li>
-            </ul>
-        </nav>
+        <button id="btnIdioma" aria-label="Cambiar idioma">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" alt="Español" width="24"
+                height="16">
+            /
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="English"
+                width="24" height="16">
+        </button>
+        <h1>Portfolio de mis proyectos</h1>
+        <p><strong>Obed Francisco López Rodríguez</strong></p>
+
     </header>
+    <nav id="barra_navegacion">
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyectos-container">
+                <div class="proyecto-card">
+                    <h3>Proyecto Memorion</h3>
+                    <p>Un juego de memoria para mejorar la concentración y la agilidad mental.</p>
+                    <a href="html/proyecto1.html" class="btn-proyecto">Ver proyecto</a>
+                </div>
+
+                <div class="proyecto-card">
+                    <h3>Calculadora de IP</h3>
+                    <p>Calcula rangos y máscaras de subred para facilitar la administración de redes.</p>
+                    <a href="html/proyecto2.html" class="btn-proyecto">Ver proyecto</a>
+                </div>
+
+                <div class="proyecto-card">
+                    <h3>Proyecto de mapas</h3>
+                    <p>Visualización interactiva de mapas para análisis geoespacial.</p>
+                    <a href="html/proyecto3.html" class="btn-proyecto">Ver proyecto</a>
+                </div>
+
+                <div class="proyecto-card">
+                    <h3>Proyecto de base de datos</h3>
+                    <p>Diseño y gestión de bases de datos para aplicaciones web.</p>
+                    <a href="html/proyecto4.html" class="btn-proyecto">Ver proyecto</a>
+                </div>
+            </div>
+        </section>
+    </nav>
+
+
     <section id="presentacion">
         <h2>Presentación</h2>
-        <p>Soy Obed López, estudiante del grado superior de Desarrollo de Aplicaciones Web. Soy un desarrollador junior con una gran pasión sobre la tecnología y el aprendizaje continuo. Me gustaría incorporarme al mercado laboral lo antes posible para coger experiencia en éste sector y así seguir avanzando en el ámbito profesional.</p>
+        <p>Soy Obed López, estudiante del grado superior de Desarrollo de Aplicaciones Web. Soy un desarrollador junior
+            con una gran pasión sobre la tecnología y el aprendizaje continuo. Me gustaría incorporarme al mercado
+            laboral lo antes posible para coger experiencia en éste sector y así seguir avanzando en el ámbito
+            profesional.</p>
     </section>
 
     <section id="datos personales">
@@ -38,7 +67,7 @@
             <li><strong>Nombre completo: </strong> Obed Francisco López Rodríguez </li>
             <li><strong>Fecha de nacimiento: </strong> 12/01/1999 </li>
             <li><strong>Dirección: </strong> Calle Real, n11, Matueca de Torío </li>
-            <li><strong>Teléfono: </strong> +34 620 81 23 43 </li>
+            <li><strong>Teléfono: </strong> +34 620 99 99 99 </li>
             <li><strong>Email: </strong> obedlopezrodriguez@gmail.com </li>
         </ul>
     </section>
@@ -51,7 +80,7 @@
             <li>Bachillerato de Sociales - IES Padre Isla (2016 - 2018)</li>
         </ul>
     </section>
-    
+
     <section id="experiencia laboral">
         <h2>Experiencia laboral</h2>
         <ul>
@@ -70,7 +99,8 @@
     <section id="aptitudes">
         <h2>Tecnologías y aptitudes</h2>
         <ul>
-            <li><strong>En cuanto a Edición de Audio y Vídeo: </strong> Pro Tools, FL Studio, Sony Vegas Pro, Adobe Premiere.</li>
+            <li><strong>En cuanto a Edición de Audio y Vídeo: </strong> Pro Tools, FL Studio, Sony Vegas Pro, Adobe
+                Premiere.</li>
             <li><strong>En cuanto a Informática: </strong> HTML, CSS, Java, MySQL</li>
             <li><strong>Idiomas: </strong> Español (nativo), Inglés (medio) </li>
             <li><strong>Otros: </strong>Conocimientos sobre Word, Powerpoint, Excel </li>
@@ -78,11 +108,20 @@
 
     </section>
 
-    <section id="contacto">
-
-    </section>
-    <footer>
-
-    </footer>    
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto">
+            <a href="mailto:obedf.loprod@educa.jcyl.es" aria-label="Enviar correo">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="40" height="40">
+            </a>
+            <a href="https://github.com/obedflr" target="_blank" aria-label="Visitar GitHub">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="40" height="40">
+            </a>
+            <a href="https://www.linkedin.com/in/obedflr" target="_blank" aria-label="Visitar LinkedIn">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="40" height="40">
+            </a>
+        </div>
+    </footer>
 </body>
+
 </html>
