@@ -6,9 +6,8 @@ botonIdiomas.addEventListener("click", function() {
     if (CVENGLISH.style.display === "none") {
         CVENGLISH.style.display = "block";
         CVSPANISH.style.display = "none";
-    } else{
+    } else {
         CVENGLISH.style.display = "none";
         CVSPANISH.style.display = "block";
     }
 });
- 
