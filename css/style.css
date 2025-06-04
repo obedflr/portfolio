@@ -1,4 +1,4 @@
- .btn-effect-1 { 
+.btn-effect-1 { 
     border: 2px solid #007BFF; 
     background: transparent; 
     color: #007BFF; 
@@ -10,6 +10,7 @@
     color: #ffffff;
     box-shadow: 0 0 20px #007BFF, 0 0 40px #007BFF;
 }
+
 .btn-container {
     display: flex;
     justify-content: center;
@@ -20,18 +21,28 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
+    padding: 0;
+    height: 100vh;
 }
 
 header {
+    padding: 10px 10px; /* ajuste del padding para mayor control */
+    margin-bottom: 10px;
+}
+
+header, footer {
     text-align: center;
-    margin-bottom: 20px;
-    background-color: #79baff;
-    border-radius: 20px;
     color:white;
+    background-color: #79baff;
+    border-radius: 20px;  
+}
+
+footer h1 {
+    border-bottom: 2px solid white;
 }
 
 section {
@@ -40,23 +51,14 @@ section {
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 0 8px #ccc;
+    margin-right: 50vh; /* margen lateral der */
+    margin-left: 50vh; /* margen lateral izq */
 }
 
 h2 {
     border-bottom: 2px solid #007BFF;
     padding-bottom: 5px;
     color: #007BFF;
-}
-
-#barra_navegacion ul {
-    list-style-type: none;
-    display: flex;
-}
-
-#barra_navegacion li {
-    padding: 25px;
-    margin: 25px;
-    margin-bottom: 5px;
 }
 
 a {
@@ -70,6 +72,16 @@ a:hover {
 button {
     padding: 7px 10px;
     margin: 1px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid;
+    border-color: #007BFF;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #007BFF, 0 0 40px #007BFF;
+    background: transparent;
+    cursor: pointer;
 }
 
 .menu {
@@ -102,8 +114,7 @@ nav ul li a{
   color: white;
 }
 
-
-#contacto {
+.contacto {
   text-align: center;
   margin-top: 40px;
   padding: 20px;
@@ -195,9 +206,4 @@ width: 750px;
 
 .CPR h2 {
   text-align: left;
-}
-
-footer {
-  background-color: #79baff;
-
 }

@@ -6,44 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Obed López</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" href="img/favicon3.png">
-
+    <link rel="icon" href="../img/favicon3.png">
 </head>
 
 <body>
     <header>
-        <button id="btnIdioma" aria-label="Cambiar idioma">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" alt="Español" width="24"
-                height="16">
-            /
-            <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="English"
-                width="24" height="16">
-        </button>
         <h1>Mis proyectos</h1>
         <p><strong>Obed Francisco López Rodríguez</strong></p>
-        <button id="menu">
-            <a href="../index.html">Inicio</a>
-        </button>
-        <button id="menu">
-            <a href="proyecto1.html">Juego Memorion</a>
-        </button>
-        <button id="menu">
-            <a href="proyecto2.html">Calculadora de IP</a>
-        </button>
-        <button id="menu">
-            <a href="proyecto3.html">Mapas</a>
-        </button>
-        <button id="menu">
-            <a href="proyecto4.html">Base de datos Velneo</a>
-        </button>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="proyecto1.html">Juego Memorion</a></li>
+                <li><a href="proyecto2.html">Calculadora de IP</a></li>
+                <li><a href="proyecto3.html">Mapas</a></li>
+                <li><a href="proyecto4.html">Base de datos Velneo</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <footer id="contacto">
-        <h2>Contacto</h2>
+    <section>
+        <h2>Descripción</h2>
+
+        <p>Este proyecto es una aplicación creada con Velneo, enfocada en optimizar la gestión operativa de las
+            empresas. Su funcionalidad permite organizar información esencial como clientes, productos, ventas y sus
+            respectivos detalles, facilitando el control y la centralización de los procesos vinculados a la actividad
+            financiera del negocio.
+        </p>
+    </section>
+
+    <section>
+        <h2>Objetivo</h2>
+        <p>
+            La aplicación busca optimizar la administración de datos mediante
+            formularios, búsquedas y rejillas que permitan una introducción, edición y visualización eficiente de la
+            información. Además, el sistema está diseñado para registrar operaciones comerciales a través de tickets y
+            líneas de venta, asegurando la integridad de los datos y facilitando su consulta. Gracias a su arquitectura
+            modular, la solución está preparada para futuras ampliaciones y garantiza una experiencia de usuario fluida
+            y adaptable a diferentes entornos empresariales.
+        </p>
+    </section>
+
+    <section>
+        <div class="CPR">
+            <h2>Capturas del proyecto</h2>
+            <h3>Entidades</h3>
+            <img src="../img/entidades.png" alt="entidades" id="Img">
+            <h3>Artículos</h3>
+            <img src="../img/articulos.png" alt="articulos" id="Img">
+            <h3>Línea de ticket</h3>
+            <img src="../img/linea de ticket.png" alt="linea-ticket" id="Img">
+            <h3>Ticket de venta</h3>
+            <img src="../img/ticket de venta.png" alt="ticket-venta" id="Img">
+            <h3>Base de datos</h3>
+            <img src="../img/base-datos.png" alt="base-datos" id="Img">
+
+            <div class="proyectos-container">
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="contacto">
+        <h1>Contacto</h1>
         <div class="contacto">
-            <a href="mailto:obedf.loprod@educa.jcyl.es" aria-label="Send email">
+            <a href="mailto:obedf.loprod@educa.jcyl.es?subject=Consulta&body=Hola%20Obed,%20me%20gustaría%20saber%20más%20sobre%20tu%20trabajo."
+                aria-label="Send email">
                 <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="40" height="40">
             </a>
+
             <a href="https://github.com/obedflr" target="_blank" aria-label="Visit GitHub">
                 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="40" height="40">
             </a>
@@ -51,6 +81,7 @@
                 target="_blank" aria-label="Visit LinkedIn">
                 <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="40" height="40">
             </a>
+            <p>OBED LÓPEZ 2025 ©</p>
         </div>
     </footer>
 </body>
