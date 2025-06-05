@@ -46,6 +46,10 @@ footer h1 {
     border-bottom: 2px solid white;
 }
 
+footer .contacto a {
+    margin: 0 12px; /* Aumenta o reduce px de la separacion de iconos */
+}
+
 section {
     background: #fff;
     padding: 20px;
