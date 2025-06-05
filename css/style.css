@@ -1,0 +1,279 @@
+.btn-effect-1 { 
+    border: 2px solid #007BFF; 
+    background: transparent; 
+    color: #007BFF; 
+    box-shadow: 0 0 5px #007BFF;
+}
+
+.btn-effect-1:hover {
+    background: #007BFF;
+    color: #ffffff;
+    box-shadow: 0 0 20px #007BFF, 0 0 40px #007BFF;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1px;
+    right: 3px;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+header, footer {
+    text-align: center;
+    color: white;
+    background-color: #79baff;
+    border-radius: 20px;  
+}
+
+footer h1 {
+    border-bottom: 2px solid white;
+}
+
+footer .contacto a {
+    margin: 0 12px; /* Aumenta o reduce px de la separacion de iconos */
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #ccc;
+    max-width: 1000px;
+    width: 90%;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    color: #007BFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+button {
+    padding: 7px 10px;
+    margin: 1px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid;
+    border-color: #007BFF;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #007BFF, 0 0 40px #007BFF;
+    background: transparent;
+    cursor: pointer;
+}
+
+.menu {
+    background-color: transparent;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    border-color: #79baff;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    border-radius: 10px;
+    border: solid;
+    padding: 7px;
+    border-color: #007BFF;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacto {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.contacto-iconos {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contacto-iconos a img {
+    transition: transform 0.3s ease;
+    max-width: 40px;
+    height: auto;
+}
+
+.contacto-iconos a img:hover {
+    transform: scale(1.2);
+}
+
+#btnIdioma {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+/* cajas de proyectos */
+
+#proyectos {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #ccc;
+    margin-bottom: 20px;
+}
+
+.proyectos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.proyecto-card {
+    background-color: transparent;
+    border: transparent;
+    padding: 15px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.proyecto-card h3 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.proyecto-card p {
+    flex-grow: 1;
+    margin: 10px 0;
+    color: #333;
+}
+
+.btn-proyecto {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn-proyecto:hover {
+    background-color: #0056b3;
+}
+
+#Img {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+}
+
+.CPR {
+    text-align: center;
+    align-items: center;
+}
+
+.CPR h2 {
+    text-align: left;
+}
+
+/* ----------- RESPONSIVE DESIGN ----------- */
+@media (max-width: 768px) {
+    section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #btnIdioma {
+        top: 10px;
+        right: 10px;
+        font-size: 14px;
+    }
+
+    .proyecto-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    #Img {
+        width: 100%;
+    }
+
+    .contacto-iconos {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header, footer {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .btn-effect-1,
+    .btn-proyecto,
+    button {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+
+    .proyecto-card {
+        padding: 10px;
+    }
+}
